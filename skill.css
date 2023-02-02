@@ -11,12 +11,12 @@ body{
     text-decoration: none;
   }
 
-  @font-face{
+  /* @font-face{
     font-family: "Lovely Home";
     src:local('Lovely Home'), 
     url("Image/LovelyHome-9aBZ.ttf") format('truetype');
 
-  }
+  } */
 
 .brand-name ,.navbar-light .navbar-brand{
       /* font-family: "Brush Script MT"; */
