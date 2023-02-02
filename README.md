@@ -6,7 +6,7 @@ A clean, beautiful and responsive portfolio templete with using only HTML and cs
 Later on add some javascript for animation and designing.
 
 
-![ezgif com-optimize](https://user-images.githubusercontent.com/53833570/87217363-f9e6ff00-c365-11ea-9e1a-4d017964f2b4.gif)
+
 
 ## Sections:
 💥 About me\
