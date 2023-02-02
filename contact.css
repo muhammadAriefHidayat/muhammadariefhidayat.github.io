@@ -56,10 +56,10 @@ body{
 
   .Profilepic{
     border-radius: 100%;
-    width: 300px;
-    height: 300px;
+    width: 280px;
+    height: 350px;
     border: 10px solid;
-    border-color: #6c63ff;
+    border-color: #fff6cb;
     box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.897);;
 }
 
@@ -123,7 +123,7 @@ body{
     margin-bottom: 20px;
     font-size: 30px;
     color:white;
-    background-color: #6c63ff;
+    background-color: #6861ec;
     padding: 10px 30px 10px;
     margin-left: 12%;
     margin-right: 12%;

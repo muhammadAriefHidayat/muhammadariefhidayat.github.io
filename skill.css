@@ -22,7 +22,7 @@ body{
       /* font-family: "Brush Script MT"; */
       /* margin-bottom: 3px; */
       font-family: "Lovely Home";
-      font-size: 50px;
+      font-size: 40px;
       font-weight: bold;
       color: #351458;
   }
@@ -40,7 +40,7 @@ body{
   .headerachor {
     color: black;
     margin: 0 7px 0 7px;
-    font-size: 25px;
+    font-size: 22px;
   }
 
   .headerachor:hover {
@@ -88,13 +88,13 @@ body{
     position: relative;
     border-radius:20px;
     /* background: rgba(17, 17, 17, .3); */
-    background: #c5c2ff;
+    background: #e4e3e394;
     margin: 20px auto;
 }
 
 
 #Skill-HTML {
-    width: 90%;
+    width: 60%;
     border-radius:20px;
     animation: Animate-HTML 4s;
     -webkit-animation: Animate-HTML 4s;
@@ -102,67 +102,68 @@ body{
     -o-animation: Animate-HTML 4s;
     height: 50px;
     position: absolute;
-    background-color:#6c63ff;
+    background-color:#fdf8bcef;
 }
 @keyframes Animate-HTML {
     from {
     width: 10px;
 }
 to {
-    width: 90%}
+    width: 60%}
 }@-webkit-keyframes Animate-HTML {
     from {
     width: 10px;
 }
 to {
-    width: 90%}
+    width: 60%}
 }@-moz-keyframes Animate-HTML {
     from {
     width: 10px;
 }
 to {
-    width: 90%}
+    width: 60%}
 }@-o-keyframes Animate-HTML {
     from {
     width: 10px;
 }
 to {
-    width: 90%}
+    width: 60%}
 }#Skill-CSS {
-    animation: Animate-CSS 5s;
-    -webkit-animation: Animate-CSS 5s;
-    -moz-animation: Animate-CSS 5s;
-    -o-animation: Animate-CSS 5s;
+    animation: Animate-CSS 4s;
+    -webkit-animation: Animate-CSS 4s;
+    -moz-animation: Animate-CSS 4s;
+    -o-animation: Animate-CSS 4s;
     border-radius:20px;
-    width: 70%;
+    width: 40%;
     height: 50px;
     position: absolute;
-    background-color: #6c63ff;
+    background-color: #fdf8bcef;
 }
 @keyframes Animate-CSS {
     from {
     width: 10px;
 }
 to {
-    width: 70%}
+    width: 40%}
 }@-webkit-keyframes Animate-CSS {
     from {
     width: 10px;
 }
 to {
-    width: 70%}
+    width: 40%}
 }@-moz-keyframes Animate-CSS {
     from {
     width: 10px;
 }
 to {
-    width: 70%}
+    width: 40%}
 }@-o-keyframes Animate-CSS {
     from {
     width: 10px;
 }
 to {
-    width: 70%}
+    width: 40%
+}
 }#Skill-Python {
     border-radius:20px;
     animation: Animate-Python 5s;
@@ -172,7 +173,7 @@ to {
     width: 80%;
     height: 50px;
     position: absolute;
-    background-color: #6c63ff;
+    background-color: #fdf8bcef;
 }
 @keyframes Animate-Python {
     from {
@@ -204,102 +205,102 @@ to {
     -moz-animation: Animate-JS 4s;
     -o-animation: Animate-JS 4s;
     border-radius:20px;
-    width: 65%;
+    width: 55%;
     height: 50px;
     position: absolute;
-    background-color: #6c63ff;
+    background-color: #fdf8bcef;
 }
 @keyframes Animate-JS {
     from {
     width: 10px;
 }
 to {
-    width: 65%}
+    width: 55%}
 }@-webkit-keyframes Animate-JS {
     from {
     width: 10px;
 }
 to {
-    width: 65%}
+    width: 55%}
 }@-moz-keyframes Animate-JS {
     from {
     width: 10px;
 }
 to {
-    width: 65%}
+    width: 55%}
 }@-o-keyframes Animate-JS {
     from {
     width: 10px;
 }
 to {
-    width: 65%}
+    width: 55%}
 }
 
-#Skill-C {
-    animation: Animate-C 4s;
-    -webkit-animation: Animate-C 4s;
-    -moz-animation: Animate-C 4s;
-    -o-animation: Animate-C 4s;
+#Skill-Java {
+    animation: Animate-Java 4s;
+    -webkit-animation: Animate-Java 4s;
+    -moz-animation: Animate-Java 4s;
+    -o-animation: Animate-Java 4s;
     border-radius:20px;
-    width: 80%;
+    width: 50%;
     height: 50px;
     position: absolute;
-    background-color: #6c63ff;
+    background-color: #fdf8bcef;
 }
-@keyframes Animate-C {
+@keyframes Animate-Java {
     from {
     width: 10px;
 }
 to {
-    width: 80%}
-}@-webkit-keyframes Animate-C {
+    width: 50%}
+}@-webkit-keyframes Animate-Java {
     from {
     width: 10px;
 }
 to {
-    width: 80%}
-}@-moz-keyframes Animate-C {
+    width: 50%}
+}@-moz-keyframes Animate-Java {
     from {
     width: 10px;
 }
 to {
-    width: 80%}
-}@-o-keyframes Animate-C {
+    width: 50%}
+}@-o-keyframes Animate-Java {
     from {
     width: 10px;
 }
 to {
-    width: 80%}
-}#Skill-Cplus {
-    animation: Animate-Cplus4s;
-    -webkit-animation: Animate-Cplus 4s;
-    -moz-animation: Animate-Cplus 4s;
-    -o-animation: Animate-Cplus 4s;
+    width: 50%}
+}#Skill-Kotlin {
+    animation: Animate-Kotlin;
+    -webkit-animation: Animate-Kotlin 4.4s;
+    -moz-animation: Animate-Kotlin 4.4s;
+    -o-animation: Animate-Kotlin 4.4s;
     border-radius:20px;
-    width: 85%;
+    width: 95%;
     height: 50px;
     position: absolute;
-    background-color: #6c63ff;
+    background-color: #fdf8bcef;
 }
-@keyframes Animate-Cplus {
+@keyframes Animate-Kotlin {
+    from {
+    width: 10px;
+}
+to {
+    width: 95%}
+}@-webkit-keyframes Animate-Kotlin {
     from {
     width: 10px;
 }
 to {
     width: 85%}
-}@-webkit-keyframes Animate-Cplus {
+}@-moz-keyframes Animate-Kotlin {
     from {
     width: 10px;
 }
 to {
     width: 85%}
-}@-moz-keyframes Animate-Cplus {
-    from {
-    width: 10px;
-}
-to {
-    width: 85%}
-}@-o-keyframes Animate-Cplus {
+}@-o-keyframes Animate-Kotlin {
     from {
     width: 10px;
 }
@@ -314,7 +315,7 @@ to {
     width: 80%;
     height: 50px;
     position: absolute;
-    background-color: #6c63ff;
+    background-color: #fdf8bcef;
 }
 @keyframes Animate-SQL {
     from {
