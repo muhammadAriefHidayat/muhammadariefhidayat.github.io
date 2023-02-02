@@ -22,7 +22,7 @@ body{
       /* font-family: "Brush Script MT"; */
       /* margin-bottom: 3px; */
       font-family: "Lovely Home";
-      font-size: 50px;
+      font-size: 40px;
       font-weight: bold;
       color: #351458;
   }
@@ -38,7 +38,7 @@ body{
   .headerachor {
     color: black;
     margin: 0 7px 0 7px;
-    font-size: 25px;
+    font-size: 22px;
   }
   
   .headerachor:hover {
