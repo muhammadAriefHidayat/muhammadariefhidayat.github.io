@@ -10,10 +10,9 @@ app.use(express.static(__dirname + '/public'));
 
 
 // index page
-app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'index.html'));
+app.get('/', function (req, res) {
+  res.render('pages/index');
 });
-
 
 // about page
 app.get('/education', function (req, res) {
