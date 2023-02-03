@@ -19,6 +19,8 @@ Later on add some javascript for animation and designing.
 ## Technology used:
 - HTML
 - CSS
+- EJS
+- Node.JS
 
 ## Illustration and Images
 - [Undraw](https://undraw.co/)
