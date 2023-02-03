@@ -1,31 +1,42 @@
-name: Node.js Package
+name: gh-pages
 
 on:
-  release:
-    types: [created]
+  push:
+    branches:
+      - master
 
 jobs:
-  build:
+  gh-pages:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 18.13.0
-      - run: npm ci
-      - run: npm test
+      - uses: actions/checkout@v2
 
-  publish-npm:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
         with:
-          node-version: 18.13.0
-          registry-url: https://registry.npmjs.org/
-      - run: npm ci
-      - run: npm run build --if-present
-      - run: npm test
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
+          node-version: 16.x
+
+      - name: Install pnpm
+        run: npm install --global pnpm
+
+      - name: Cache .pnpm-store
+        uses: actions/cache@v2
+        with:
+          path: ~/.pnpm-store
+          key: ${{ runner.os }}-pnpm-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Build VuePress site
+        run: pnpm build
+
+      - name: Copy README.md
+        run: cp README.md dist
+
+      - name: Deploy GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          publish_dir: dist
