@@ -1,11 +1,8 @@
 # Interactive-Portfolio 
-[![GitHub](https://img.shields.io/github/license/AjitVerma15/Interactive-Portfolio?color=green)](https://img.shields.io/github/license/AjitVerma15/Interactive-Portfolio)
 
 ## A Resposive and attractive portfolio for Developers 🔥
 A clean, beautiful and responsive portfolio templete with using only HTML and css.
 Later on add some javascript for animation and designing.
-
-
 
 
 ## Sections:
@@ -19,10 +16,13 @@ Later on add some javascript for animation and designing.
 ## Technology used:
 - HTML
 - CSS
+- EJS /check out branch master
+- Node.JS /check out branch master
 
 ## Illustration and Images
-- [Undraw](https://undraw.co/)
-- [Hackerblock](https://hack.codingblocks.com/)
+- Undraw
+- Hackerblock
+- Storyset
 
 ## For the Future
 I'm in the process of learning javascript So,i didn't add any of it 
