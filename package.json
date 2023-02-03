@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://muhammadariefhidayat.github.io"
+    "url": "git+https://github.com/muhammadAriefHidayat/muhammadariefhidayat.github.io.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://muhammadariefhidayat.github.io"
+    "url": "https://github.com/muhammadAriefHidayat/muhammadariefhidayat.github.io/issues"
   },
-  "homepage": "https://muhammadariefhidayat.github.io",
+  "homepage": "https://github.com/muhammadAriefHidayat/muhammadariefhidayat.github.io#readme",
   "dependencies": {
     "ejs": "^3.1.8",
     "express": "^4.18.2",
