@@ -58,8 +58,6 @@ body{
     border-radius: 100%;
     width: 280px;
     height: 350px;
-    border: 10px solid;
-    border-color: #fff6cb;
     box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.897);;
 }
 
