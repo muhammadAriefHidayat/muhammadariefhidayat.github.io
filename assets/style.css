@@ -135,8 +135,8 @@ h1, h2 {
   max-height: 250px;
   padding: 1px;
   margin-right: 64px;
-  width: 100%;
-  height: 100%;
+  width: 250px;
+  height: 250px;
   background-repeat: no-repeat;
 }
 html[dir=rtl] .app__logo-wrapper {
@@ -154,7 +154,7 @@ html[dir=rtl] .app__logo-wrapper {
   border-radius: 22.5%;
   mask-image: url("ios-mask.svg");
   mask-size: cover;
-  width: 100%;
+  width: 250px;
   height: auto;
 }
 .app__name {
