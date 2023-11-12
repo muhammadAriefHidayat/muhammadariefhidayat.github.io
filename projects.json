@@ -30,12 +30,6 @@
     "logo": "Image/palmkid.png"
   },
   {
-    "name": "Bank Sampah",
-    "description": "Create a simple image slider using jQuery",
-    "url": "banksampah.html",
-    "logo": "Image/banksampah.png"
-  },
-  {
     "name": "8D Quran",
     "description": "Create a simple image slider using jQuery",
     "url": "8dquran.html",
