@@ -42,6 +42,12 @@
     "logo": "Image/screnrcord.png"
   },
   {
+    "name": "Coloring Apps",
+    "description": "Deskripsi",
+    "url": "banksampah.html",
+    "logo": "Image/banksampah.png"
+  },
+  {
     "name": "Barcode Apps",
     "description": "Create a simple image slider using jQuery",
     "url": "/barcode.html",
